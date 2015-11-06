@@ -1,6 +1,6 @@
 {
-  "name": "xlsx-browerify-shim",
-  "version": "0.0.3",
+  "name": "xlsx-browserify-shim",
+  "version": "0.0.1",
   "author": "chriddyp",
   "description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer *with hacked browserify support*.",
   "keywords": [
