@@ -1,8 +1,8 @@
 {
-	"name": "xlsx",
-	"version": "0.8.0",
-	"author": "sheetjs",
-	"description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer",
+	"name": "xlsx-browerify-shim",
+	"version": "0.0.1",
+	"author": "chriddyp",
+	"description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer *with hacked browserify support*.",
 	"keywords": [ "excel", "xls", "xlsx", "xlsb", "xlsm", "ods", "office", "spreadsheet" ],
 	"bin": {
 		"xlsx": "./bin/xlsx.njs"
@@ -22,7 +22,7 @@
 		"xlsjs":"",
 		"uglify-js":""
 	},
-	"repository": { "type":"git", "url":"git://github.com/SheetJS/js-xlsx.git" },
+	"repository": { "type":"git", "url":"git://github.com/chriddyp/js-xlsx.git" },
 	"scripts": {
 		"pretest": "git submodule init && git submodule update",
 		"test": "make test"
@@ -32,7 +32,7 @@
 			"pattern": "xlsx.js"
 		}
 	},
-	"bugs": { "url": "https://github.com/SheetJS/js-xlsx/issues" },
+	"bugs": { "url": "https://github.com/chriddyp/js-xlsx/issues" },
 	"license": "Apache-2.0",
 	"engines": { "node": ">=0.8" }
 }
