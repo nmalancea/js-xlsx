@@ -1,8 +1,8 @@
 {
   "name": "xlsx-style-browserify",
-  "version": "0.0.1",
-  "author": "sheetjs",
-  "description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer",
+  "version": "0.0.2",
+  "author": "Nelu Malancea",
+  "description": "Forked version of styled js-xlsx to add browserify support from chriddyp",
   "keywords": [ "excel", "xls", "xlsx", "xlsb", "xlsm", "ods", "office", "spreadsheet" ],
   "bin": {
     "xlsx": "./bin/xlsx.njs"
