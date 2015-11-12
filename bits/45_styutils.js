@@ -64,6 +64,8 @@ function find_mdw(collw, coll) {
 	}
 }
 
+function px2pt(px) { return px * 72 / 96; }
+
 /* [MS-EXSPXML3] 2.4.54 ST_enmPattern */
 var XLMLPatternTypeMap = {
 	"None": "none",
@@ -82,4 +84,3 @@ var XLMLPatternTypeMap = {
 	"ThinReverseDiagStripe": "lightDown",
 	"ThinHorzCross": "lightGrid"
 };
-
