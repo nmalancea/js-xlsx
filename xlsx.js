@@ -4632,7 +4632,6 @@ var XLMLPatternTypeMap = {
 	"ThinReverseDiagStripe": "lightDown",
 	"ThinHorzCross": "lightGrid"
 };
-
 var styles = {}; // shared styles
 
 var themes = {}; // shared themes
@@ -7809,15 +7808,15 @@ function write_ws_xml_data(ws, opts, idx, wb) {
 		    // 18.3.1.73 row
 		    var params = {r:rr};
 		    if(typeof ws['!rows'] !== 'undefined' && ws['!rows'].length > R) {
-                var row = ws['!rows'][R];
-                if (row.hidden) params.hidden = 1;
-                var height = -1;
-                if (row.hpx) height = px2pt(row.hpx);
-                else if (row.hpt) height = row.hpt;
-                if (height > -1) { params.ht = height; params.customHeight = 1; }
-            };
-            o[o.length] = (writextag('row', r.join(""), params));
-        }
+                        var row = ws['!rows'][R];
+                        if (row.hidden) params.hidden = 1;
+                        var height = -1;
+                        if (row.hpx) height = px2pt(row.hpx);
+                        else if (row.hpt) height = row.hpt;
+                        if (height > -1) { params.ht = height; params.customHeight = 1; }
+                    };
+                    o[o.length] = (writextag('row', r.join(""), params));
+                }
 	}
 	return o.join("");
 }
