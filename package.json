@@ -1,6 +1,6 @@
 {
   "name": "xlsx-style-browserify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Nelu Malancea",
   "description": "Forked version of styled js-xlsx to add browserify support from chriddyp",
   "keywords": [ "excel", "xls", "xlsx", "xlsb", "xlsm", "ods", "office", "spreadsheet" ],
